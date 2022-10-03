@@ -16,7 +16,7 @@ public class LoginTestcases extends Testbase {
 	login.VerifyUserInput("Admin");
 	Assert.assertTrue(login.Verifypassword_display(),"ERROR = Password is displayed");
 	login.VerifyPasswordInput("admin123");
-	Assert.assertTrue(login.Verifylogin_diplay(),"ERROR = login button is not displayed");
+	Assert.assertTrue(login.Verifylogin_diplay(),"ERROR = login butto is not displayed");
 	login.verify_loginclick();
 	
 	
